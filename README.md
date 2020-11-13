@@ -1,8 +1,8 @@
 # Insight API
 
-A Particl blockchain REST and web socket API service for [Bitcore Node](https://github.com/particl/particl-bitcore-node).
+A Rhombus blockchain REST and web socket API service for [Bitcore Node](https://github.com/rhombus/rhombus-bitcore-node).
 
-This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/particl/particl-insight-ui.
+This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/rhombus/rhombus-insight-ui.
 
 ## Getting Started
 
@@ -14,11 +14,11 @@ bitcore-node install insight-api
 bitcore-node start
 ```
 
-The API endpoints will be available by default at: `http://localhost:3001/particl-insight-api/`
+The API endpoints will be available by default at: `http://localhost:3001/rhombus-insight-api/`
 
 ## Prerequisites
 
-- [Bitcore Node 3.x](https://github.com/particl/particl-bitcore-node)
+- [Bitcore Node 3.x](https://github.com/rhombus/rhombus-bitcore-node)
 
 **Note:** You can use an existing Bitcoin data directory, however `txindex`, `addressindex`, `timestampindex` and `spentindex` needs to be set to true in `bitcoin.conf`, as well as a few other additional fields.
 
@@ -469,7 +469,7 @@ included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
 EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+MERCHANTABILITY, FITNESS FOR A RHOMICULAR PURPOSE AND NONINFRINGEMENT.
 IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE

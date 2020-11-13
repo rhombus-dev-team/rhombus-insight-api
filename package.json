@@ -1,8 +1,8 @@
 {
-  "name": "particl-insight-api",
-  "description": "A Particl blockchain REST and web socket API service for Bitcore Node.",
+  "name": "rhombus-insight-api",
+  "description": "A Rhombus blockchain REST and web socket API service for Bitcore Node.",
   "version": "0.4.4",
-  "repository": "git://github.com/particl/particl-insight-api.git",
+  "repository": "git://github.com/rhombus-dev-team/rhombus-insight-api.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -38,9 +38,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/particl/particl-insight-api/issues"
+    "url": "https://github.com/rhombus-dev-team/rhombus-insight-api/issues"
   },
-  "homepage": "https://github.com/particl/particl-insight-api",
+  "homepage": "https://github.com/rhombus-dev-team/rhombus-insight-api",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -61,8 +61,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "particl-bitcore-lib": "git://github.com/particl/particl-bitcore-lib",
-    "particl-bitcore-message": "git://github.com/particl/particl-bitcore-message",
+    "rhombus-bitcore-lib": "git://github.com/rhombus-dev-team/rhombus-bitcore-lib",
+    "rhombus-bitcore-message": "git://github.com/rhombus-dev-team/rhombus-bitcore-message",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",
